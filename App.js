@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -13,5 +12,6 @@ export class App extends React.Component{
 
   }
 }
+ReactDOM.render(<App/>, document.getElementById('root'))
 
 
